@@ -1,0 +1,68 @@
+header {
+    width: 100%;
+    height: 100px;
+}
+
+#encaixe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+}
+
+#logo {
+    background-image: url("../../../public/assets/barbearia-logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#nome {
+    font-family: var(--fontpop);
+}
+
+#tema {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid var(--cor01);
+}
+
+#tema p {
+    margin-left: 15px;
+}
+
+#dia {
+    background-image: url("../../../public/assets/sun.png");
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+#noite {
+    background-image: url("../../../public/assets/moon.png");
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.dia {
+    background-color: var(--cor02);
+    color: black;
+}
+
+.noite {
+    background-color: var(--cor03);
+    color: white;
+}

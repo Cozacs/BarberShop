@@ -1,0 +1,27 @@
+main {
+    width: 100%;
+}
+
+.Info {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.Info h1 {
+    font-size: clamp(20px, 5vw, 35px);
+    margin: 30px 0px;
+}
+
+.Info p {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+#assinatura {
+    font-family: var(--fontgreat);
+    color: var(--cor01);
+    font-size: clamp(15px, 15vw, 40px);
+}
